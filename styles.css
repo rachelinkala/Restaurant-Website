@@ -1,6 +1,7 @@
 
 
 body {
+  background-image: url(brick-wall-1916752_1920.jpg);
   background-color: #DDD8C4;
   font-family: alcubierre;
 }
@@ -95,7 +96,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #A59E8C;
+  background-color: #D1E3DD;
   font-family: alcubierre;
   font-size: 20px;
   flex-direction: column;
@@ -119,4 +120,20 @@ a:link {
 a:visited {
   color: white;
   text-decoration: none;
+}
+
+.social-media-container {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D1E3DD;
+  font-family: alcubierre;
+  font-size: 20px;
+  flex-direction: column;
+  margin: auto;
+}
+
+.social-media-item {
+  height: 50px;
 }
