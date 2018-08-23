@@ -1,4 +1,5 @@
 
+
 body {
   background-color: #DDD8C4;
   font-family: alcubierre;
@@ -68,7 +69,7 @@ body {
 }
 
 .drinks-container {
-  width: 100%;
+  width: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,9 +77,13 @@ body {
   font-family: alcubierre;
   font-size: 20px;
   flex-direction: column;
+  margin: auto;
 }
 
-.specialty {
+.specialty,
+.hot-drinks,
+.smoothie-frappe,
+.cold-drinks {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,18 +98,4 @@ a:link {
 a:visited {
   color: white;
   text-decoration: none;
-}
-
-.hot-drinks {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.smoothie-frappe {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
 }
