@@ -90,6 +90,27 @@ body {
   flex-direction: column;
 }
 
+.food-container {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A59E8C;
+  font-family: alcubierre;
+  font-size: 20px;
+  flex-direction: column;
+  margin: auto;
+}
+
+.smoothie-bowl,
+.crepes,
+.oatmeal-bowls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 a:link {
   color: white;
   text-decoration: none;
